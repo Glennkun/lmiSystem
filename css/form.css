@@ -1,0 +1,26 @@
+body{
+    margin-top: 5%;
+}
+.form-control {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    height: 31px;
+    text-transform: uppercase;
+}
+.form-label {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+.form-label::after {
+    content: " *";
+    color: red;
+}
+.form-group {
+    margin-bottom: 0.5rem;
+}
+.invalid-feedback {
+    font-size: 0.75rem;
+}
+::placeholder {
+    text-transform: uppercase;
+}
